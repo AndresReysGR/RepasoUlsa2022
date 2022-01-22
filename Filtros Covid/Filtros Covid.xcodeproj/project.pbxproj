@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4F5555279B712E00EEEAEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F5554279B712E00EEEAEB /* AppDelegate.swift */; };
+		3D4F5557279B712E00EEEAEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F5556279B712E00EEEAEB /* SceneDelegate.swift */; };
+		3D4F5559279B712E00EEEAEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F5558279B712E00EEEAEB /* ViewController.swift */; };
+		3D4F555C279B712E00EEEAEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F555A279B712E00EEEAEB /* Main.storyboard */; };
+		3D4F555E279B714100EEEAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F555D279B714100EEEAEB /* Assets.xcassets */; };
+		3D4F5561279B714100EEEAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F555F279B714100EEEAEB /* LaunchScreen.storyboard */; };
+		3D4F556C279B714200EEEAEB /* Filtros_CovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F556B279B714200EEEAEB /* Filtros_CovidTests.swift */; };
+		3D4F5577279B714200EEEAEB /* Filtros_CovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F5576279B714200EEEAEB /* Filtros_CovidUITests.swift */; };
+		3D4F5585279B792400EEEAEB /* DatosCovid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F5584279B792400EEEAEB /* DatosCovid.swift */; };
+		3D4F5587279B811500EEEAEB /* CeldaCovidController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F5586279B811500EEEAEB /* CeldaCovidController.swift */; };
+		3D4F5589279B937400EEEAEB /* DetallesCovidController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F5588279B937400EEEAEB /* DetallesCovidController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D4F5568279B714100EEEAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D4F5549279B712E00EEEAEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4F5550279B712E00EEEAEB;
+			remoteInfo = "Filtros Covid";
+		};
+		3D4F5573279B714200EEEAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D4F5549279B712E00EEEAEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4F5550279B712E00EEEAEB;
+			remoteInfo = "Filtros Covid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D4F5551279B712E00EEEAEB /* Filtros Covid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Filtros Covid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4F5554279B712E00EEEAEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D4F5556279B712E00EEEAEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D4F5558279B712E00EEEAEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D4F555B279B712E00EEEAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D4F555D279B714100EEEAEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D4F5560279B714100EEEAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D4F5562279B714100EEEAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F5567279B714100EEEAEB /* Filtros CovidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Filtros CovidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4F556B279B714200EEEAEB /* Filtros_CovidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtros_CovidTests.swift; sourceTree = "<group>"; };
+		3D4F556D279B714200EEEAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F5572279B714200EEEAEB /* Filtros CovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Filtros CovidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4F5576279B714200EEEAEB /* Filtros_CovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtros_CovidUITests.swift; sourceTree = "<group>"; };
+		3D4F5578279B714200EEEAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4F5584279B792400EEEAEB /* DatosCovid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosCovid.swift; sourceTree = "<group>"; };
+		3D4F5586279B811500EEEAEB /* CeldaCovidController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCovidController.swift; sourceTree = "<group>"; };
+		3D4F5588279B937400EEEAEB /* DetallesCovidController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesCovidController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D4F554E279B712E00EEEAEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F5564279B714100EEEAEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F556F279B714200EEEAEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4F5548279B712E00EEEAEB = {
+			isa = PBXGroup;
+			children = (
+				3D4F5553279B712E00EEEAEB /* Filtros Covid */,
+				3D4F556A279B714200EEEAEB /* Filtros CovidTests */,
+				3D4F5575279B714200EEEAEB /* Filtros CovidUITests */,
+				3D4F5552279B712E00EEEAEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D4F5552279B712E00EEEAEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F5551279B712E00EEEAEB /* Filtros Covid.app */,
+				3D4F5567279B714100EEEAEB /* Filtros CovidTests.xctest */,
+				3D4F5572279B714200EEEAEB /* Filtros CovidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4F5553279B712E00EEEAEB /* Filtros Covid */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F5554279B712E00EEEAEB /* AppDelegate.swift */,
+				3D4F5556279B712E00EEEAEB /* SceneDelegate.swift */,
+				3D4F5586279B811500EEEAEB /* CeldaCovidController.swift */,
+				3D4F5588279B937400EEEAEB /* DetallesCovidController.swift */,
+				3D4F5558279B712E00EEEAEB /* ViewController.swift */,
+				3D4F555A279B712E00EEEAEB /* Main.storyboard */,
+				3D4F555D279B714100EEEAEB /* Assets.xcassets */,
+				3D4F555F279B714100EEEAEB /* LaunchScreen.storyboard */,
+				3D4F5562279B714100EEEAEB /* Info.plist */,
+				3D4F5584279B792400EEEAEB /* DatosCovid.swift */,
+			);
+			path = "Filtros Covid";
+			sourceTree = "<group>";
+		};
+		3D4F556A279B714200EEEAEB /* Filtros CovidTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F556B279B714200EEEAEB /* Filtros_CovidTests.swift */,
+				3D4F556D279B714200EEEAEB /* Info.plist */,
+			);
+			path = "Filtros CovidTests";
+			sourceTree = "<group>";
+		};
+		3D4F5575279B714200EEEAEB /* Filtros CovidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4F5576279B714200EEEAEB /* Filtros_CovidUITests.swift */,
+				3D4F5578279B714200EEEAEB /* Info.plist */,
+			);
+			path = "Filtros CovidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D4F5550279B712E00EEEAEB /* Filtros Covid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4F557B279B714200EEEAEB /* Build configuration list for PBXNativeTarget "Filtros Covid" */;
+			buildPhases = (
+				3D4F554D279B712E00EEEAEB /* Sources */,
+				3D4F554E279B712E00EEEAEB /* Frameworks */,
+				3D4F554F279B712E00EEEAEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Filtros Covid";
+			productName = "Filtros Covid";
+			productReference = 3D4F5551279B712E00EEEAEB /* Filtros Covid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D4F5566279B714100EEEAEB /* Filtros CovidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4F557E279B714200EEEAEB /* Build configuration list for PBXNativeTarget "Filtros CovidTests" */;
+			buildPhases = (
+				3D4F5563279B714100EEEAEB /* Sources */,
+				3D4F5564279B714100EEEAEB /* Frameworks */,
+				3D4F5565279B714100EEEAEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4F5569279B714100EEEAEB /* PBXTargetDependency */,
+			);
+			name = "Filtros CovidTests";
+			productName = "Filtros CovidTests";
+			productReference = 3D4F5567279B714100EEEAEB /* Filtros CovidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D4F5571279B714200EEEAEB /* Filtros CovidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4F5581279B714200EEEAEB /* Build configuration list for PBXNativeTarget "Filtros CovidUITests" */;
+			buildPhases = (
+				3D4F556E279B714200EEEAEB /* Sources */,
+				3D4F556F279B714200EEEAEB /* Frameworks */,
+				3D4F5570279B714200EEEAEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4F5574279B714200EEEAEB /* PBXTargetDependency */,
+			);
+			name = "Filtros CovidUITests";
+			productName = "Filtros CovidUITests";
+			productReference = 3D4F5572279B714200EEEAEB /* Filtros CovidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D4F5549279B712E00EEEAEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3D4F5550279B712E00EEEAEB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3D4F5566279B714100EEEAEB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3D4F5550279B712E00EEEAEB;
+					};
+					3D4F5571279B714200EEEAEB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3D4F5550279B712E00EEEAEB;
+					};
+				};
+			};
+			buildConfigurationList = 3D4F554C279B712E00EEEAEB /* Build configuration list for PBXProject "Filtros Covid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D4F5548279B712E00EEEAEB;
+			productRefGroup = 3D4F5552279B712E00EEEAEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D4F5550279B712E00EEEAEB /* Filtros Covid */,
+				3D4F5566279B714100EEEAEB /* Filtros CovidTests */,
+				3D4F5571279B714200EEEAEB /* Filtros CovidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D4F554F279B712E00EEEAEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F5561279B714100EEEAEB /* LaunchScreen.storyboard in Resources */,
+				3D4F555E279B714100EEEAEB /* Assets.xcassets in Resources */,
+				3D4F555C279B712E00EEEAEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F5565279B714100EEEAEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F5570279B714200EEEAEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4F554D279B712E00EEEAEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F5559279B712E00EEEAEB /* ViewController.swift in Sources */,
+				3D4F5555279B712E00EEEAEB /* AppDelegate.swift in Sources */,
+				3D4F5557279B712E00EEEAEB /* SceneDelegate.swift in Sources */,
+				3D4F5589279B937400EEEAEB /* DetallesCovidController.swift in Sources */,
+				3D4F5585279B792400EEEAEB /* DatosCovid.swift in Sources */,
+				3D4F5587279B811500EEEAEB /* CeldaCovidController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F5563279B714100EEEAEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F556C279B714200EEEAEB /* Filtros_CovidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4F556E279B714200EEEAEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F5577279B714200EEEAEB /* Filtros_CovidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D4F5569279B714100EEEAEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4F5550279B712E00EEEAEB /* Filtros Covid */;
+			targetProxy = 3D4F5568279B714100EEEAEB /* PBXContainerItemProxy */;
+		};
+		3D4F5574279B714200EEEAEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4F5550279B712E00EEEAEB /* Filtros Covid */;
+			targetProxy = 3D4F5573279B714200EEEAEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D4F555A279B712E00EEEAEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4F555B279B712E00EEEAEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D4F555F279B714100EEEAEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4F5560279B714100EEEAEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D4F5579279B714200EEEAEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D4F557A279B714200EEEAEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D4F557C279B714200EEEAEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Filtros Covid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Filtros-Covid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D4F557D279B714200EEEAEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Filtros Covid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Filtros-Covid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D4F557F279B714200EEEAEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Filtros CovidTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Filtros-CovidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filtros Covid.app/Filtros Covid";
+			};
+			name = Debug;
+		};
+		3D4F5580279B714200EEEAEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Filtros CovidTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Filtros-CovidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filtros Covid.app/Filtros Covid";
+			};
+			name = Release;
+		};
+		3D4F5582279B714200EEEAEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Filtros CovidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Filtros-CovidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Filtros Covid";
+			};
+			name = Debug;
+		};
+		3D4F5583279B714200EEEAEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Filtros CovidUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Filtros-CovidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Filtros Covid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D4F554C279B712E00EEEAEB /* Build configuration list for PBXProject "Filtros Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4F5579279B714200EEEAEB /* Debug */,
+				3D4F557A279B714200EEEAEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4F557B279B714200EEEAEB /* Build configuration list for PBXNativeTarget "Filtros Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4F557C279B714200EEEAEB /* Debug */,
+				3D4F557D279B714200EEEAEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4F557E279B714200EEEAEB /* Build configuration list for PBXNativeTarget "Filtros CovidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4F557F279B714200EEEAEB /* Debug */,
+				3D4F5580279B714200EEEAEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4F5581279B714200EEEAEB /* Build configuration list for PBXNativeTarget "Filtros CovidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4F5582279B714200EEEAEB /* Debug */,
+				3D4F5583279B714200EEEAEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D4F5549279B712E00EEEAEB /* Project object */;
+}
